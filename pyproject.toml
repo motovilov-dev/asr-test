@@ -1,0 +1,14 @@
+[project]
+name = "test-asr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gigaam",
+    "numpy>=2.3.1",
+    "sounddevice>=0.5.2",
+]
+
+[tool.uv.sources]
+gigaam = { git = "https://github.com/salute-developers/GigaAM.git" }
